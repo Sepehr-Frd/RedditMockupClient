@@ -1,0 +1,42 @@
+body {
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(164, 199, 197, 1) 100%);
+
+}
+
+
+
+.navigation-bar-logo {
+
+    height: 40px;
+    width: 40px;
+}
+
+.navigation-bar {
+
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.36);
+    vertical-align: middle;
+
+}
+
+.signup-button {
+ 
+    border-radius: 5;
+    background-color: rgb(18, 20, 157);
+    color: black;
+
+ 
+}
+
+.navigation-bar-label {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    outline-width: 5px;
+    color: azure;
+
+}
