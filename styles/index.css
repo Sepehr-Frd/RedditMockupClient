@@ -1,56 +1,83 @@
-body {
-
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(164, 199, 197, 1) 100%);
-
-}
-
-
 /* --- Navigation Bar --- */
 
 .navigation-bar {
 
     display: flex;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.36);
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid #117C9F;
+    border-radius: 10px;
     justify-content: space-between;
+    align-items: center;
 
-}
-
-.watermark {
-    align-self: flex-start;
 }
 
 .navigation-bar-logo {
 
     height: 40px;
     width: 40px;
+    vertical-align: middle;
 }
 
 
 .navigation-bar-label {
 
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 18px;
-    font-style: italic;
-    outline-width: 5px;
-    color: azure;
+    font: oblique bolder x-large cursive;
+    color: #117C9F;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.navigation-bar-buttons {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-signup-button {
+
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #117C9F;
+    color: #117C9F;
+    border-radius: 10px;
+    font-family: cursive;
 
 }
 
-a {
-    color: azure;
+.login-signup-button:hover {
+
+    color: #AAFF47;
+    border-color: #AAFF47;
+    background-color: #117C9F;
 }
 
-.signup-button,
-.login-button {
+.login-signup-button:active {
 
-    background-color: rgb(33, 163, 16);
-    color: azure;
-    flex-flow: row;
-
+    color: #117C9F;
+    background-color: #AAFF47;
+    border-color: #117C9F;
 }
-
 
 /* --- Navigation Bar --- */
+
+
+/* --- Questions Section --- */
+
+.questions {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.questions p {
+
+    
+    
+}
+
+/* --- Questions Section --- */
