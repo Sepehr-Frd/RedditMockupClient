@@ -6,6 +6,20 @@ body {
 }
 
 
+/* --- Navigation Bar --- */
+
+.navigation-bar {
+
+    display: flex;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.36);
+    justify-content: space-between;
+
+}
+
+.watermark {
+    align-self: flex-start;
+}
 
 .navigation-bar-logo {
 
@@ -13,26 +27,10 @@ body {
     width: 40px;
 }
 
-.navigation-bar {
-
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.36);
-    vertical-align: middle;
-
-}
-
-.signup-button {
- 
-    border-radius: 5;
-    background-color: rgb(18, 20, 157);
-    color: black;
-
- 
-}
 
 .navigation-bar-label {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-weight: bold;
     font-size: 18px;
     font-style: italic;
@@ -40,3 +38,19 @@ body {
     color: azure;
 
 }
+
+a {
+    color: azure;
+}
+
+.signup-button,
+.login-button {
+
+    background-color: rgb(33, 163, 16);
+    color: azure;
+    flex-flow: row;
+
+}
+
+
+/* --- Navigation Bar --- */
