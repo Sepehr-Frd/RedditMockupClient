@@ -117,7 +117,12 @@
     max-width: 30px;
     padding: 5px;
     align-self: center;
+}
+.login-signup-button:hover {
 
+    color: #AAFF47;
+    border-color: #AAFF47;
+    background-color: #117C9F;
 }
 
 .likes-number {
