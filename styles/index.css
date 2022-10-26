@@ -74,19 +74,13 @@
 }
 
 .single-question {
-
     padding: 5px;
+    background-color: rgba(80, 75, 75, 0.112);
+    border-radius: 10px;
+    border-style: outset;
 }
 
 
-.question-button {
-
-    display: flex;
-    flex-direction: column;
-    border: #117C9F 2px;
-    border-radius: 5px;
-    padding: 5px;
-}
 
 .question-title {
     padding: 5px 10px;
@@ -99,41 +93,57 @@
     text-align: start;
 }
 
-.likes-and-dislikes-div {
-    align-self: flex-end;
-}
-
-.likes-and-dislikes-span {
+.interactions {
     display: flex;
-
+    justify-content: flex-end;
 }
 
-.likes-span {
+
+.single-interaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 5px;
-
-}
-
-.like-logo {
-    max-width: 30px;
-    padding: 5px;
-    align-self: center;
-}
-.login-signup-button:hover {
-
-    color: #AAFF47;
-    border-color: #AAFF47;
-    background-color: #117C9F;
-}
-
-.likes-number {
-    align-self: center;
-    padding: 5px;
-    font-family: cursive;
-}
-
-.like-logo:hover {
     
+}
+
+.single-interaction-button {
+    
+    border: none;
+    padding: 5px;
+    background: none;
+}
+
+.single-interaction-button img {
+    max-width: 35px;
+    
+}
+
+.like-icon:hover {
+    
+    content: url("../assets/like-filled.png");
+
+}
+.dislike-icon:hover {
+    
+    content: url("../assets/dislike-filled.png");
+
+}
+.comments-icon:hover {
+    
+    content: url("../assets/comments-filled.png");
 
 }
 
-/* --- Questions Section --- */
+
+
+.single-interaction-number {
+    
+    font-family: cursive;
+    padding: 5px;
+    font-size: medium;
+
+}
+
+
+/* ^^^^^ Questions Section ^^^^^ */
