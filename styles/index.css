@@ -22,7 +22,7 @@
 
 .navigation-bar-label {
 
-    font: oblique bolder x-large cursive;
+    font-size: x-large;
     color: #117C9F;
     padding: 5px;
     vertical-align: middle;
@@ -42,7 +42,6 @@
     border: 2px solid #117C9F;
     color: #117C9F;
     border-radius: 10px;
-    font-family: cursive;
 
 }
 
@@ -139,7 +138,6 @@
 
 .single-interaction-number {
     
-    font-family: cursive;
     padding: 5px;
     font-size: medium;
 

@@ -1,0 +1,45 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.119);
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+form div {
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+
+}
+
+.login-label {
+    padding: 0px 10px;
+    font-size: larger;
+
+}
+
+.login-text-field {
+    border: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+    min-height: 30px;
+}
+
+.login-button {
+    
+}
+
+.username,
+.password,
+.remember-me {
+    align-items: center;
+}
